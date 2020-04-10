@@ -5,7 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class UrlTest {
-    WebDriver driver;
+    WebDriver driver = null;
 
     @Test
     public void openUrl( ) {
@@ -20,7 +20,7 @@ public class UrlTest {
 
     @AfterMethod
     public void closeDriver( ) {
-     driver.close();
+     driver.quit();
     }
 
 
