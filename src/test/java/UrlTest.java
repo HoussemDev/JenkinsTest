@@ -13,15 +13,16 @@ public class UrlTest {
 //        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
 //        driver = new ChromeDriver();
         driver = new FirefoxDriver();
-        driver.navigate().to("https://www.google.com/");
+
+       driver.navigate().to("https://www.google.com/");
     }
 
 
 
-//    @AfterMethod
-//    public void closeDriver( ) {
-//     driver.quit();
-//    }
+    @AfterMethod
+    public void closeDriver( ) {
+     driver.quit();
+    }
 
 
 }

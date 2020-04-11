@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-11T20:12:28 CEST" name="UrlTest" finished-at="2020-04-11T20:12:36 CEST" duration-ms="8300">
+    <groups>
+    </groups>
+    <test started-at="2020-04-11T20:12:28 CEST" name="Command line test" finished-at="2020-04-11T20:12:36 CEST" duration-ms="8300">
+      <class name="UrlTest">
+        <test-method signature="openUrl()[pri:0, instance:UrlTest@631330c]" started-at="2020-04-11T20:12:28 CEST" name="openUrl" finished-at="2020-04-11T20:12:35 CEST" duration-ms="6337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:UrlTest@631330c]" started-at="2020-04-11T20:12:35 CEST" name="closeDriver" finished-at="2020-04-11T20:12:36 CEST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- UrlTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- UrlTest -->
+</testng-results>
