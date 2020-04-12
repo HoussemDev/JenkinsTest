@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 public class UrlTest {
     WebDriver driver = null;
 
+
     @Test
     public void openUrl( ) {
         System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver");
@@ -15,14 +16,15 @@ public class UrlTest {
         driver = new FirefoxDriver();
 
        driver.navigate().to("https://www.google.com/");
+        driver.quit();
     }
 
 
 
-    @AfterMethod
-    public void closeDriver( ) {
-     driver.quit();
-    }
+//    @AfterMethod
+//    public void closeDriver( ) {
+//     driver.quit();
+//    }
 
 
 }
