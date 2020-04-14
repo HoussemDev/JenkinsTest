@@ -18,6 +18,10 @@ public class UrlTest {
         ChromeOptions op = new ChromeOptions();
         op.addArguments("--headless");
         op.addArguments("--window-size=1920,1080");
+
+        op.addArguments("--no-sandbox"); //Bypass OS security model
+        op.addArguments("--start-maximized");
+        op.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(op);
        driver.navigate().to("https://www.google.com/");
 
