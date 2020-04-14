@@ -24,11 +24,11 @@ public class UrlTest {
     }
 
 
-//
-//    @AfterMethod
-//    public void closeDriver( ) {
-//     driver.quit();
-//    }
+
+    @AfterMethod
+    public void closeDriver( ) {
+     driver.close();
+    }
 
 
 }
